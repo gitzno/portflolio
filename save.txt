@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thuy's Portfolio</title>
+
+    <script src="https://kit.fontawesome.com/8e09f12769.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/gird.css">
+</head>
+
+<body>
+    <script language="javascript">
+        function change_background() {
+            if (document.getElementById("test").style.display == 'inline') {
+                document.getElementById("test").style.display = 'none';
+                document.getElementById("home-pagez").style.display = 'block';
+            }
+            else {
+                document.getElementById("test").style.display = 'inline';
+
+                document.getElementById("home-pagez").style.display = 'none';
+            }
+        }
+    </script>
+    <!-- <div class="nav-bar">
+        <div id="home-page">
+            <a id="nav-bar-button" href="#"><b>thuyht163763</b></a>
+        </div>
+        <div class="nav-bar-content">
+            <a id="nav-bar-button" href="#">About Me</a>
+            <a id="nav-bar-button" href="#">Products</a>
+            <a id="nav-bar-button" href="#">Contact</a>
+        </div>
+    </div> -->
+    <div class="grid wide" >
+            <div class="row" style="background-color: blue;">
+                <div class="col l-5 m-12 c-6 ">
+                    <div id="header">
+                        <h2>Hello</h2>
+                        <h1 id="name">I'm Thuy</h1>
+                        <div id="icon">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-spotify"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-5 m-12 c-6 l-o-2">
+                    <div class="my-img">
+                        <!-- <img src="img\ava.jpg" alt=""> -->
+                    </div> -->
+                </div>
+            </div>
+        <!-- <div id="header">
+                <h2>Hello</h2>
+                <h1 id="name">I'm Thuy</h1>
+                <div id="icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-spotify"></i></a>
+                </div>
+            </div>
+            <div class="my-img">
+                <img src="img\ava.jpg" alt="">
+            </div> -->
+
+        <!-- <h2>Timeline</h2>
+        <div class="summary">
+            <div class="summary-card">
+                <div class="summary-card-bg">
+                    <div id="fpt_logo">
+                        <img src="img\fpt_logo.png" alt="">
+                    </div>
+                </div>
+                <div id="summary-content">
+                    <h2>FPT University</h2>
+                    <div style="margin: 5px;">From Dec.2020 - Present</div>
+                    <div id="summary-content-detail" style="margin: 0px 20px;">
+                        <ul>
+                            <li>Knowledge: C/C++, Java, HTML, CSS, Js, Japanese</li>
+                            <li>Thành viên clb Japanese Software Engineering</li>
+                            <li>Knowledge: Servlet</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="summary-card">
+                <div class="summary-card-bg">
+                    <div id="fpt_logo">
+                        <img src="img\fpt_logo.png" alt="">
+                    </div>
+                </div>
+                <div id="summary-content">
+                    <h2>FPT University</h2>
+                    <div style="margin: 5px;">From Dec.2020 - Present</div>
+                    <div id="summary-content-detail" style="margin: 0px 20px;">
+                        <ul>
+                            <li>Knowledge: C/C++, Java, HTML, CSS, Js.</li>
+                            <li>Thành viên clb Japanese Software Engineering.</li>
+                            <li>Knowledge: Servlet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+        <!-- </div> -->
+    </div>
+    <input type="button" value="Change backgroud" onclick="change_background()" />
+    <div class="content-main" id="test">
+        <div class="cover">
+            <img src="https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/308780096_1770265216661125_661944903248249627_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_ohc=MK29YxUna-YAX99WW7j&_nc_ht=scontent.fhan18-1.fna&oh=00_AfBagiCKJ6nq51yATK8ivVJUFDCwHwGWgngxdmKd7DKZyQ&oe=638196AD"
+                alt="">
+        </div>
+        <div class="main_intro">
+            <div class="avatar">
+                <img src="img\me.jpg" alt="">
+            </div>
+            <div id="big-name">
+                <h1>Hoàng <br>Thái Thuỵ</h1>
+                <h2>Student at FPT University</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title">
+                <h2>Education</h2>
+                <div id="line"></div>
+            </div>
+            <div class="container-content">
+                <div class="card">
+                    <div class="card-alw">
+                        <div id="card-img">
+                            <img src="img\fpt_logo.png" alt="">
+                        </div>
+                        <div class="card-header">
+                            <h2>FPT University</h2>
+                            <h3>From 2020 - Present</h3>
+                        </div>
+                    </div>
+                    <div class="card-extend">
+                        <div class="card-detail">
+                            <ul>
+                                <li>Major: Software Engineering</li>
+                                <li>Knowledge: C/C++, java, Sql, HTML, CSS...</li>
+                                <li>GPA: 1.0</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div id="footer-content" style="margin-bottom: 10px;">
+            Hoang Thai Thuy - 2022
+        </div>
+    </div>
+</body>
+
+</html>
